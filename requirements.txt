@@ -1,0 +1,8 @@
+anyio
+db_query
+dbutils
+fastapi
+pika
+pymysql
+starlette
+websockets
