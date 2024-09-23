@@ -4,7 +4,7 @@ import websockets
 import os
 
 # 文件大小限制（单位：字节）
-FILE_SIZE_LIMIT = 50 * 1024 * 1024  # 50MB
+FILE_SIZE_LIMIT = 5 * 1024 * 1024  # 5MB
 
 async def websocket_handler(websocket, path):
     while True:
